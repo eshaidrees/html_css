@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+       /* Header styles */
+header {
+    background-color: #d1abab;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    color: #141313;
+}
+      /* Table style */
+table {
+    width: 50%;
+    border-collapse: collapse; /* Ensures that table borders collapse into a single border */
+    margin: 20px 0;
+    flex-grow: 1;
+    justify-content: center;
+}
+table, thead,th, td {
+    border: 1px solid #0a0a0a; /* Adds border to table, header, and data cells */
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: #c4b1b1;
+}
+
+
+
+tr{
+    background-color:#ffffff; /* White background for odd rows */
+}
+
+/* Footer style */
+footer{
+    background-color:#d1abab;
+    text-align:center;
+    padding: 10px;
+    margin-top: auto;
+}
+footer,p {
+    font-size: 20px;
+    font:bold;
+    color: black;
+}
